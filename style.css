@@ -6,11 +6,31 @@
     font-family: inter;
 }
 
-.navbar {
+.navbarDiv {
+    display: flex;
     position: fixed;
     width: 100dvw;
     height: 10dvh;
     background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+ 
+}
+
+.navItem {
+
+}
+
+.navLink {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 100% 25%;
+    background-color: red;
 }
 
 .spacer {

@@ -47,29 +47,26 @@
     align-items: start;
 }
 
-.articleContainer{
+.articleContainer {
     background-color: darkcyan;
     width: 80dvw;
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 5dvh 5dvh;
 }
 
-.Article{
-
+.Article {
+    background-color: aqua;
+    margin: 5dvh;
 }
 
-.articleTitleDiv{
+.articleTitleDiv {}
 
-}
+.articleTitle {}
 
-.articleTitle{
+.articleTextDiv {}
 
-}
-
-.articleTextDiv{
-
-}
-
-.articleText{
-    
-}
+.articleText {}

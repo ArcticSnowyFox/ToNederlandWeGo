@@ -22,16 +22,19 @@
     width: 100dvw;
     height: 300dvh;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 }
 
 .articleContainer{
     background-color: darkcyan;
-    width: ;
+    width: 80dvw;
     display: flex;
     flex-flow: column wrap;
 }
 
-.firstArticle{
+.Article{
 
 }
 

@@ -6,15 +6,47 @@
     font-family: inter;
 }
 
+.navbar {
+    position: fixed;
+    width: 100dvw;
+    height: 10dvh;
+    background-color: lightblue;
+}
+
+.spacer {
+    width: 100dvw;
+    height: 10dvh;
+}
+
 .body {
     width: 100dvw;
     height: 300dvh;
     background-color: white;
 }
 
-.navbar {
-    position: fixed;
-    width: 100dvw;
-    height: 10dvh;
-    background-color: lightblue;
+.articleContainer{
+    background-color: darkcyan;
+    width: ;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.firstArticle{
+
+}
+
+.articleTitleDiv{
+
+}
+
+.articleTitle{
+
+}
+
+.articleTextDiv{
+
+}
+
+.articleText{
+    
 }

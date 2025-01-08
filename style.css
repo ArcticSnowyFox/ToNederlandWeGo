@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: inter;
+    list-style-type: none;
 }
 
 .navbarDiv {
@@ -17,20 +18,31 @@
 }
 
 .navbar {
- 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 .navItem {
+    background-color: red;
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding-right: 1dvw;
+    padding-left: 1dvw;
+    align-items: center;
+    transition: 200ms ease-in-out;
+}
 
+.navItem:hover {
+    background-color: lightcoral;
 }
 
 .navLink {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    padding: 100% 25%;
-    background-color: red;
+    color: aliceblue;
 }
 
 .spacer {
@@ -51,7 +63,7 @@
     background-color: darkcyan;
     width: 80dvw;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;

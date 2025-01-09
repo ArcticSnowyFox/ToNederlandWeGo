@@ -66,6 +66,7 @@
 .articleContainer {
     background-color: darkcyan;
     width: 80dvw;
+    padding: 3dvw;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -77,7 +78,9 @@
 
 .Article {
     background-color: aqua;
-    margin: 5dvh;
+    border-radius: 2dvh;
+    padding: 1dvh;
+    max-width: 75dvh;
 }
 
 .articleTitleDiv {}
@@ -85,6 +88,8 @@
 .articleTitle {
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 2.2rem;
 }
 
 .articleTextDiv {}
@@ -92,4 +97,6 @@
 .articleText {
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
 }

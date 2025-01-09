@@ -6,16 +6,20 @@
     font-family: inter;
     list-style-type: none;
     text-decoration: none;
-    --navbarColor: lightblue;
-    --navItemColor: rgb(100, 148, 166);
+    --navbarColor: rgb(44, 55, 61);
+    --navItemColor: hsl(200, 19%, 35%);
+    transition: ease-in-out 100ms;
+}
 
+body {
+    background-color: rgb(199, 223, 235);
 }
 
 .navbarDiv {
     display: flex;
     position: fixed;
     width: 100dvw;
-    height: 10dvh;
+    height: 9dvh;
     background-color: var(--navbarColor);
     align-items: center;
     justify-content: center;
@@ -27,6 +31,9 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
+    gap: 0 1dvw;
+    z-index: 10;
+    box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
 }
 
 .navItem {
@@ -38,49 +45,53 @@
     padding-right: 2dvw;
     padding-left: 2dvw;
     align-items: center;
-    transition: 200ms ease-in-out;
+    transition: 150ms ease-in-out;
+    border-radius: 2dvh;
 }
 
 .navItem:hover {
-    background-color: rgb(121, 178, 198);
+    background-color: hsl(200, 19%, 45%);
 }
 
 .navLink {
     color: aliceblue;
+    font-size: 1.4rem;
 }
 
 .spacer {
     width: 100dvw;
-    height: 10dvh;
+    height: 9dvh;
 }
 
 .body {
     width: 100dvw;
-    height: 300dvh;
-    background-color: white;
+    height: max-content;
+    background-color: rgb(199, 223, 235);
     display: flex;
     justify-content: center;
     align-items: start;
 }
 
 .articleContainer {
-    background-color: darkcyan;
+    background-color: #eee;
     width: 80dvw;
     padding: 3dvw;
+    margin-top: 5dvh;
+    margin-bottom: 5dvh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: flex-start;
-    align-content: flex-start;
+    align-content: stretch;
     gap: 5dvh 5dvh;
     border-radius: 2dvh;
 }
 
 .Article {
-    background-color: aqua;
+    background-color: #cbe9c9;
     border-radius: 2dvh;
     padding: 1dvh;
-    max-width: 75dvh;
+    width: 75dvh;
 }
 
 .articleTitleDiv {}
@@ -99,4 +110,9 @@
     justify-content: center;
     text-align: center;
     font-size: 1.2rem;
+    transition: ease-in-out 200ms;
+}
+
+.Article:hover {
+    box-shadow: 0dvh 0dvh 4dvh 1.5dvh rgba(0, 119, 178, 0.4);
 }

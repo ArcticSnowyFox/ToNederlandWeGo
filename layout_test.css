@@ -64,4 +64,5 @@
     background-color: red;
     width: 100%;
     min-height: 100dvh;
+    justify-self: center;
 }

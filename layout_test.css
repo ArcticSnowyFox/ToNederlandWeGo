@@ -25,21 +25,26 @@ body {
     background-color: var(--navbarColor);
     align-items: center;
     justify-content: center;
+    box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
+    z-index: 9;
 }
 
 .navbar {
-    width: 100%;
+    background-color: white;
+    width: fit-content;
+    padding-right: 0.15vw;
+    padding-left: 0.15dvw;
     height: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 0 1dvw;
+    gap: 0 0.15dvw;
     z-index: 10;
     box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
 }
 
 .navItem {
-    background-color: var(--navItemColor);
+    background-color: var(--navbarColor);
     height: 100%;
     width: auto;
     display: flex;
@@ -48,11 +53,11 @@ body {
     padding-left: 2dvw;
     align-items: center;
     transition: 150ms ease-in-out;
-    border-radius: 2dvh;
+    /* border-radius: 2dvh; */
 }
 
 .navItem:hover {
-    background-color: hsl(200, 19%, 45%);
+    background-color: var(--navItemColor);
 }
 
 .navLink {
@@ -79,6 +84,7 @@ body {
     min-height: 100dvh;
     display: flex;
     margin-top: 4dvh;
+    margin-bottom: 4dvh;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
@@ -114,14 +120,20 @@ body {
     /* opacity: 10%; */
     height: 100%;
     width: auto;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.imgRight {
+    order: 2;
 }
 
 .textDiv {
     /* background-color: red; */
     height: 100%;
-    display: flex;
+    /* display: flex; */
     flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
     order: 1;
     flex-grow: 1;
     flex-basis: 50%;
@@ -130,12 +142,19 @@ body {
 .o {
     font-size: 2.5rem;
     text-align: start;
-    margin: 0.5dvw;
+    margin: 0.8dvw;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding-right: 10dvh;
 }
 
 .articleText {
     font-size: 1.2rem;
     text-align: start;
-    margin: 0.5dvw;
+    margin: 0.8dvw;
     margin-top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 3dvh;
 }

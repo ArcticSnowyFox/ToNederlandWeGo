@@ -12,11 +12,16 @@
     overflow-x: hidden;
 }
 
+body{
+    width: 100dvw;
+    min-height: 100dvh;
+}
+
 .navbarDiv {
     display: flex;
     position: fixed;
     width: 100dvw;
-    height: 9dvh;
+    height: 8dvh;
     background-color: var(--navbarColor);
     align-items: center;
     justify-content: center;
@@ -57,12 +62,53 @@
 
 .spacer {
     width: 100dvw;
-    height: 9dvh;
+    height: 8dvh;
 }
 
 .body {
-    background-color: red;
-    width: 100%;
+    /* background-color: red; */
+    width: 100dvw;
     min-height: 100dvh;
-    justify-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contentDiv {
+    /* background-color: gold; */
+    width: 80%;
+    min-height: 100dvh;
+    display: flex;
+    margin-top: 4dvh;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    row-gap: 4dvh;
+}
+
+.article{
+    /* background-color: aqua; */
+    width: 75dvw;
+    height: 40dvh;
+    overflow-y: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    border: #eee 0.5dvh solid;
+}
+
+.aticleImage{
+    /* opacity: 10%; */
+    height: 100%;
+    width: min-content;
+}
+
+.textDiv{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+}
+
+.o{
+    font-size: 2.5rem
+    
 }

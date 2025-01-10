@@ -20,7 +20,7 @@ body {
     display: flex;
     position: fixed;
     width: 100dvw;
-    height: 9dvh;
+    height: 8dvh;
     background-color: var(--navbarColor);
     align-items: center;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 0 1dvw;
+    gap: 0 0.5dvw;
     z-index: 10;
     box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
 }
@@ -61,7 +61,7 @@ body {
 
 .spacer {
     width: 100dvw;
-    height: 9dvh;
+    height: 8dvh;
 }
 
 .body {
@@ -75,8 +75,8 @@ body {
 
 .articleContainer {
     background-color: #eee;
-    width: 80dvw;
-    padding: 3dvw;
+    width: 85dvw;
+    padding: 2dvw;
     margin-top: 5dvh;
     margin-bottom: 5dvh;
     display: flex;
@@ -92,7 +92,7 @@ body {
     background-color: #cbe9c9;
     border-radius: 2dvh;
     padding: 1dvh;
-    width: 75dvh;
+    width: 70dvh;
 }
 
 .articleTitleDiv {}
@@ -112,6 +112,7 @@ body {
     text-align: center;
     font-size: 1.2rem;
     transition: ease-in-out 200ms;
+    margin: 1dvw;
 }
 
 .Article:hover {

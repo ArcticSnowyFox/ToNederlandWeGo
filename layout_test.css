@@ -15,6 +15,7 @@
 body {
     width: 100dvw;
     min-height: 100dvh;
+    background-color: rgb(253, 255, 249);
 }
 
 .navbarDiv {
@@ -116,7 +117,7 @@ body {
 }
 
 .aticleImage {
-    background-color: coral;
+    /* background-color: coral; */
     /* opacity: 10%; */
     height: 100%;
     width: auto;

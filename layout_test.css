@@ -15,7 +15,15 @@
 body {
     width: 100dvw;
     min-height: 100dvh;
-    background-color: rgb(253, 255, 249);
+    opacity: 100%;
+}
+
+.gradient {
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    z-index: -1;
+    background-image: linear-gradient(to bottom, #e6fff2, #e6f9ff);
 }
 
 .navbarDiv {
@@ -69,6 +77,7 @@ body {
 .spacer {
     width: 100dvw;
     height: 8dvh;
+    z-index: -2;
 }
 
 .body {
@@ -84,8 +93,8 @@ body {
     width: 100%;
     min-height: 100dvh;
     display: flex;
-    margin-top: 4dvh;
-    margin-bottom: 4dvh;
+    padding-top: 4dvh;
+    padding-bottom: 4dvh;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
@@ -99,12 +108,14 @@ body {
     height: 40dvh;
     overflow-y: hidden;
     border: #eee 0.5dvh solid;
+    box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: start;
     align-content: space-between;
-
+    /*never set z-index to 100 */
+    /* z-index: 100; */
 }
 
 .imgContainer {
@@ -130,7 +141,8 @@ body {
 }
 
 .textDiv {
-    /* background-color: red; */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* background-image: linear-gradient(to left, #ccffe6, #ccf7ff); */
     height: 100%;
     /* display: flex; */
     text-align: justify;
@@ -167,6 +179,7 @@ body {
 
 .textRight {
     text-align: right;
+    /* background-image: linear-gradient(to right, #ccffe6, #ccf7ff); */
 }
 
 @media screen and (max-width: 800px) {

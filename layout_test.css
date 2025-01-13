@@ -31,7 +31,7 @@ body {
 }
 
 .navbar {
-    background-color: white;
+    background-color: hsl(201, 10%, 50%);
     width: fit-content;
     padding-right: 0.15vw;
     padding-left: 0.15dvw;
@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    gap: 0 0.15dvw;
+    gap: 0 0.17dvw;
     z-index: 10;
     box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
 }

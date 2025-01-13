@@ -108,7 +108,7 @@ body {
     height: 40dvh;
     overflow-y: hidden;
     border: #eee 0.5dvh solid;
-    box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 4dvh 0 rgba(0, 0, 0, 0.3);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;

@@ -81,7 +81,7 @@ body {
 
 .contentDiv {
     /* background-color: gold; */
-    width: 80%;
+    width: 100%;
     min-height: 100dvh;
     display: flex;
     margin-top: 4dvh;
@@ -95,7 +95,7 @@ body {
 
 .article {
     /* background-color: aqua; */
-    width: 75dvw;
+    width: 80dvw;
     height: 40dvh;
     overflow-y: hidden;
     border: #eee 0.5dvh solid;
@@ -121,6 +121,7 @@ body {
     /* opacity: 10%; */
     height: 100%;
     width: auto;
+    max-width: 30dvw;
     object-fit: cover;
 }
 
@@ -138,24 +139,32 @@ body {
     order: 1;
     flex-grow: 1;
     flex-basis: 50%;
+    text-align: left;
 }
 
 .o {
-    font-size: 2.5rem;
-    text-align: start;
+    /* background-color: red; */
+    font-size: 2.4rem;
+    text-align: inherit;
     margin: 0.8dvw;
-    width: 100%;
+    margin-top: 0.6dvh;
+    margin-bottom: 0.6dvh;
+    width: auto;
     height: auto;
     box-sizing: border-box;
-    padding-right: 10dvh;
+    /* padding-right: 10dvh; */
 }
 
 .articleText {
-    font-size: 1.2rem;
-    text-align: start;
+    font-size: 1rem;
+    text-align: inherit;
     margin: 0.8dvw;
     margin-top: 0;
     width: 100%;
     box-sizing: border-box;
     padding-right: 3dvh;
+}
+
+.textRight {
+    text-align: right;
 }

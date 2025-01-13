@@ -61,7 +61,6 @@ body {
     padding-right: 2dvw;
     padding-left: 2dvw;
     align-items: center;
-    transition: 150ms ease-in-out;
     /* border-radius: 2dvh; */
 }
 
